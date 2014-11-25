@@ -11,7 +11,7 @@ import br.com.cinapp.R;
 
 public class ActivityMain extends ActionBarActivity {
 	
-	public final static String EXTRA_MESSAGE = "com.example.cinapp.MESSAGE";
+	public final static String EXTRA_MESSAGE = "br.com.cinapp.cinapp.MESSAGE";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
