@@ -1,4 +1,4 @@
-package com.example;
+package br.com.cinapp.activity;
 
 import br.com.cinapp.R;
 
