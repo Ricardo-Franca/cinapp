@@ -1,9 +1,13 @@
 <resources>
 
     <string name="app_name">CINApp</string>
-    <string name="edit_message">Enter a message</string>
-    <string name="button_send">Send</string>
+    <string name="edit_message">Pesquisar alimento</string>
+    <string name="button_send">Enviar</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_main">ActivityMain</string>
-    <string name="title_activity_display_message">My Message</string>
+    <string name="title_activity_display_message">Consultar alimentos</string>
+    <string name="manter_perfil">Perfil</string>
+    <string name="manter_alimento">Alimentos</string>
+    <string name="gerar_grafico">Gráficos</string>
+    
 </resources>
