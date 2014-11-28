@@ -3,7 +3,7 @@
     
     <item 
         android:id="@+id/manter_perfil" android:icon="@drawable/perfil" android:title="@string/manter_perfil" 
-        android:showAsAction="always"/>
+        android:showAsAction="always" />
     
     <item 
         android:id="@+id/manter_Alimento" android:icon="@drawable/alimento" android:title="@string/manter_alimento" 

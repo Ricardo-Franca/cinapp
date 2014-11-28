@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
 
     <string name="app_name">CINApp</string>
@@ -9,5 +10,9 @@
     <string name="manter_perfil">Perfil</string>
     <string name="manter_alimento">Alimentos</string>
     <string name="gerar_grafico">Gráficos</string>
-    
+    <string name="title_activity_manter_perfil">Perfil</string>
+    <string name="title_activity_manter_alimento">ManterAlimentoActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_gerar_grafico">GerarGraficoActivity</string>
+
 </resources>
