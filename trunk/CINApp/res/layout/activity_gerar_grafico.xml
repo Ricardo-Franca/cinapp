@@ -4,9 +4,51 @@
     android:layout_height="match_parent"
     tools:context="${relativePackage}.${activityClass}" >
 
-    <TextView
+    <DatePicker
+        android:id="@+id/datePicker1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="GRAFICO" />
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" />
+
+    <DatePicker
+        android:id="@+id/datePicker2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/datePicker1" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="Gerar Gráfico" />
+
+     <TextView
+         android:id="@+id/textView1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignRight="@+id/button1"
+         android:layout_below="@+id/button1"
+         android:paddingLeft="10dp"
+         android:text="Período Inicial"
+         android:textAppearance="?android:attr/textAppearanceLarge"
+         android:textSize="15sp"
+         android:textStyle="bold" />
+
+     <TextView
+         android:id="@+id/TextView01"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/textView1"
+         android:layout_alignTop="@+id/datePicker2"
+         android:layout_marginTop="15dp"
+         android:paddingLeft="10dp"
+         android:text="Período Final"
+         android:textAppearance="?android:attr/textAppearanceLarge"
+         android:textSize="15sp"
+         android:textStyle="bold" />
 
 </RelativeLayout>
