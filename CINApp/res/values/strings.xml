@@ -11,8 +11,29 @@
     <string name="manter_alimento">Alimentos</string>
     <string name="gerar_grafico">Gráficos</string>
     <string name="title_activity_manter_perfil">Perfil</string>
-    <string name="title_activity_manter_alimento">ManterAlimentoActivity</string>
+    <string name="title_activity_manter_alimento">Manter Alimento</string>
     <string name="hello_world">Hello world!</string>
-    <string name="title_activity_gerar_grafico">GerarGraficoActivity</string>
+    <string name="title_activity_gerar_grafico">Gerar Grafico</string>
+    
+    <string name="tipo_alimento_prompt">Tipo de alimento</string>
+    
+    <string-array name="tipo_alimento_arrays">
+        <item>Cereal</item>
+        <item>Frutas</item>
+        <item>Frutas secas</item>
+        <item>Lactose</item>
+        <item>Origem animal</item>
+        <item>Verdura</item>       
+    </string-array>
+    
+    <string name="unidade_medida_prompt">Unidade de Medida</string>
+    
+    <string-array name="unidade_medida_arrays">
+        <item>Colher</item>
+        <item>Copo</item>
+        <item>Litro</item>
+        <item>Unidade</item>        
+        <item>Xícara</item>               
+    </string-array>
 
 </resources>
